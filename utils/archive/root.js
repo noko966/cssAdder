@@ -30,18 +30,24 @@ module.exports = function (c) {
     --widgetTxt2: ${c.widgetTxt2};
     --widgetTxt3: ${c.widgetTxt3};
 
-    --oddG: ${c.oddBg};
+    --oddG: ${c.oddG};
     --oddBg: ${c.oddBg};
     --oddTxt: ${c.oddTxt};
     --oddTxt2: ${c.oddTxt2};
+
+    --oddActiveG: ${c.oddActiveG};
+    --oddActiveBg: ${c.oddActiveBg};
+    --oddActiveBg2: ${c.oddActiveBg2};
+    --oddActiveTxt: ${c.oddActiveTxt};
+    --oddActiveTxt2: ${c.oddActiveTxt2};
 
     --showMoreG: ${c.showMoreBg};
     --showMoreBg: ${c.showMoreBg};
     --showMoreTxt: ${c.showMoreTxt};
     --showMoreTxt2: ${c.showMoreTxt2};
 
-    --headerBG: ${c.headerBG};
-    --headerG: ${c.headerBG};
+    --headerG: ${c.headerG};
+    --headerBg: ${c.headerBg};
     --headerTxt: ${c.headerTxt};
 
     --popupHeaderG: ${c.modalHeaderBg};

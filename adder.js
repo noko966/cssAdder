@@ -46,19 +46,29 @@ function replaceCssFiles() {
 
     let theme = {};
 
-    function generateColorLogick(color, shift) {
-      
-      let _shift = shift || 5;
-      let _color;
-      if(Array.isArray(color)){
-      }
-      else{
+    function generateColorLogick(color) {
+      let _color, _gradient, g, bg, bgHover, bg2, bg2Hover, bg3, bg3Hover, bgRGBA, txt, txt2, txt3;
+      if (Array.isArray(color)) {
+        let str = color.join();
+        _gradient = `linear-gradient(${str})`;
+        _color = color[0];
+      } else {
+        _gradient = color;
         _color = color;
       }
+      g = _gradient;
       bg = _color;
-      bg2 = tinycolor(bg).darken(_shift).toString() === "#000000" ? tinycolor(bg).lighten(_shift).toString() : tinycolor(bg).darken(_shift).toString();
-      bg3 = tinycolor(bg).darken(_shift * 2).toString() === "#000000" ? tinycolor(bg).lighten(_shift * 2).toString() : tinycolor(bg).darken(_shift * 2).toString();
+      bgHover = tinycolor(bg).darken(10).toString() === "#000000" ? tinycolor(bg).lighten(10).toString() : tinycolor(bg).darken(10).toString();
+
+      bg2 = tinycolor(bg).darken(10).toString() === "#000000" ? tinycolor(bg).lighten(10).toString() : tinycolor(bg).darken(10).toString();
+      bg2Hover = tinycolor(bg).darken(10).toString() === "#000000" ? tinycolor(bg).lighten(10).toString() : tinycolor(bg).darken(10).toString();
+
+      bg3 = tinycolor(bg).darken(12).toString() === "#000000" ? tinycolor(bg).lighten(15).toString() : tinycolor(bg).darken(12).toString();
+      bg3Hover = tinycolor(bg).darken(12).toString() === "#000000" ? tinycolor(bg).lighten(15).toString() : tinycolor(bg).darken(12).toString();
+
+
       bgRGBA = tinycolor(bg).setAlpha(.6).toString();
+
       txt = guessVisibleColor(bg);
       txt2 = txt === "#000" ?
         tinycolor(txt).lighten(30).toString() :
@@ -68,27 +78,27 @@ function replaceCssFiles() {
         tinycolor(txt).darken(40).toString();
 
       return [
-        bg,
-        bg2,
-        bg3,
-        bgRGBA,
-        txt,
-        txt2,
-        txt3
-      ]
+        g, bg, bgHover, bg2, bg2Hover, bg3, bg3Hover, bgRGBA, txt, txt2, txt3
+      ];
     }
 
 
     let colors = ["primary", "accent", "widget", "brand", "input", "header", "modalHeader", "modalContent", "odd", "oddActive", "showMore", "tab", "tabActive"];
 
     colors.forEach(color => {
-      [theme[color+"Bg"],
-      theme[color+"Bg2"],
-      theme[color+"Bg3"],
-      theme[color+"RGBA"],
-      theme[color+"Txt"],
-      theme[color+"Txt2"],
-      theme[color+"Txt3"]] = generateColorLogick(p[color]);
+      [
+        theme[color + "G"],
+        theme[color + "Bg"],
+        theme[color + "BgHover"],
+        theme[color + "Bg2"],
+        theme[color + "Bg2Hover"],
+        theme[color + "Bg3"],
+        theme[color + "Bg3Hover"],
+        theme[color + "RGBA"],
+        theme[color + "Txt"],
+        theme[color + "Txt2"],
+        theme[color + "Txt3"]
+      ] = generateColorLogick(p[color]);
     })
 
     let css = generateCss(theme);

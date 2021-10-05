@@ -622,7 +622,7 @@ module.exports = [
         "modalHeader": "#000000",
         "modalContent": "#333",
         "odd": "#212121",
-        "oddActive": "#000000",
+        "oddActive": ["#a3752b", "#f1e495", "#d7a94f"],
         "showMore": "#2a2a2a",
         "tab": "#2b2b2b",
         "tabActive": "#000000"
@@ -878,7 +878,7 @@ module.exports = [
         "modalHeader": "#333333",
         "modalContent": "#000000",
         "odd": "#212121",
-        "oddActive": "#000000",
+        "oddActive": ["#FFD000", "#FFF194", "#FFD000"],
         "showMore": "#2b2b2b",
         "tab": "#1d1d1d",
         "tabActive": "#333333"
@@ -1518,7 +1518,7 @@ module.exports = [
         "modalHeader": "#22491a",
         "modalContent": "#000000",
         "odd": "#141e12",
-        "oddActive": "#c19434",
+        "oddActive": ["#cea253", "#daa53e", "#fbf058", "#c39736", "#9f7118"],
         "showMore": "#023302",
         "tab": "#141e12",
         "tabActive": "#22491a"
@@ -1710,7 +1710,7 @@ module.exports = [
         "modalHeader": "#6c52b8",
         "modalContent": "#000000",
         "odd": "#5a4c84",
-        "oddActive": "#f6cf02",
+        "oddActive": ["#f6cf02", "#f8f666"],
         "showMore": "#25bbf8",
         "tab": "#5a4499",
         "tabActive": "#6c52b8"
@@ -1934,7 +1934,7 @@ module.exports = [
         "modalHeader": "#4e2b75",
         "modalContent": "#000000",
         "odd": "#f5f5f5",
-        "oddActive": "#000000",
+        "oddActive": ["#FF9A00", "#B64B31"],
         "showMore": "#bbbbbb",
         "tab": "#f5f5f5",
         "tabActive": "#000000"
@@ -1950,7 +1950,7 @@ module.exports = [
         "modalHeader": "#222907",
         "modalContent": "#000000",
         "odd": "#2e3807",
-        "oddActive": "#d0b752",
+        "oddActive": ["#E3BB13", "#503F00"],
         "showMore": "#2b350b",
         "tab": "#161b03",
         "tabActive": "#222907"
@@ -2046,7 +2046,7 @@ module.exports = [
         "modalHeader": "#745dbc",
         "modalContent": "#000000",
         "odd": "#322b46",
-        "oddActive": "#000000",
+        "oddActive": ["#AA49C6", "#5E1270"],
         "showMore": "#1f1933",
         "tab": "#534485",
         "tabActive": "#745dbc"
@@ -2174,7 +2174,7 @@ module.exports = [
         "modalHeader": "#090f23",
         "modalContent": "#000000",
         "odd": "#223164",
-        "oddActive": "#000000",
+        "oddActive": ["#F5D89F", "#AC6929"],
         "showMore": "#111c42",
         "tab": "#16224b",
         "tabActive": "#090f23"
@@ -2478,7 +2478,7 @@ module.exports = [
         "modalHeader": "#393838",
         "modalContent": "#202020",
         "odd": "#000000",
-        "oddActive": "#000000",
+        "oddActive": ["#BB9700", "#F6C600", "#BB9700"],
         "showMore": "#202020",
         "tab": "#111111",
         "tabActive": "#202020"
@@ -2542,7 +2542,7 @@ module.exports = [
         "modalHeader": "#343f69",
         "modalContent": "#1f2b55",
         "odd": "#0c153e",
-        "oddActive": "#000000",
+        "oddActive": ["#836D56", "#D9AD85", "toRight"],
         "showMore": "#1d233b",
         "tab": "#161c33",
         "tabActive": "#343f69"
@@ -2558,7 +2558,7 @@ module.exports = [
         "modalHeader": "#371d50",
         "modalContent": "#69428e",
         "odd": "#ffffff",
-        "oddActive": "#000000",
+        "oddActive": ["#FDC830", "#F96632", "toRight"],
         "showMore": "#000000",
         "tab": "#85579f",
         "tabActive": "#ba85c4"
@@ -2638,7 +2638,7 @@ module.exports = [
         "modalHeader": "#3a3b42",
         "modalContent": "#484952",
         "odd": "#67697e",
-        "oddActive": "#000000",
+        "oddActive": ["#8863d6", "#5346d0"],
         "showMore": "#2d2d33",
         "tab": "#2d2d33",
         "tabActive": "#3a3b42"
@@ -2734,7 +2734,7 @@ module.exports = [
         "modalHeader": "#0c0c0c",
         "modalContent": "#0c0c0c",
         "odd": "#000000",
-        "oddActive": "#000000",
+        "oddActive": ["#FFB700", "#FAD576", "#FFB700"],
         "showMore": "#262626",
         "tab": "#1c1c1c",
         "tabActive": "#0c0c0c"
@@ -2798,7 +2798,7 @@ module.exports = [
         "modalHeader": "#333333",
         "modalContent": "#000000",
         "odd": "#1a1a1a",
-        "oddActive": "#000000",
+        "oddActive": ["#F6F195", "#BE9344", "toRight"],
         "showMore": "#333333",
         "tab": "#2b2b2b",
         "tabActive": "#333333"
@@ -2830,11 +2830,7 @@ module.exports = [
         "modalHeader": "#19222b",
         "modalContent": "#2b3b4b",
         "odd": "#11161c",
-        "oddActive": [
-            "#129d47",
-            "#094f24",
-            "vertical"
-        ],
+        "oddActive": ["#129d47", "#094f24"],
         "showMore": "#19222b",
         "tab": "#19222b",
         "tabActive": "#222e3b"
@@ -2914,11 +2910,7 @@ module.exports = [
         "modalHeader": "#1c1c1c",
         "modalContent": "#0c0c0c",
         "odd": "#000000",
-        "oddActive": [
-            "#f5bc3d",
-            "#664722",
-            "horisontal"
-        ],
+        "oddActive": ["#f5bc3d", "#c99837", "#664722", "toRight"],
         "showMore": "#262626",
         "tab": "#1c1c1c",
         "tabActive": "#0c0c0c"
@@ -2950,11 +2942,7 @@ module.exports = [
         "modalHeader": "#3b3b3b",
         "modalContent": "#1d1d1d",
         "odd": "#9a9a9a",
-        "oddActive": [
-            "#34CC98",
-            "#217458",
-            "vertical"
-        ],
+        "oddActive": ["#34CC98", "#217458"],
         "showMore": "#3b3b3b",
         "tab": "#1d1d1d",
         "tabActive": "#1d1d1d"
@@ -2986,12 +2974,7 @@ module.exports = [
         "modalHeader": "#525252",
         "modalContent": "#343434",
         "odd": "#727272",
-        "oddActive": [
-            "#c5a046",
-            "#f4e17f",
-            "#f4e17f",
-            "c9a358"
-        ],
+        "oddActive": ["#c5a046", "#f4e17f", "#c9a358"],
         "showMore": "#262626",
         "tab": "#575757",
         "tabActive": "#424242"
@@ -3552,7 +3535,7 @@ module.exports = [
         "modalHeader": "#252524",
         "modalContent": "#333",
         "odd": "#252524",
-        "oddActive": "#FDC965",
+        "oddActive": ["#18AB18", "#265D17"],
         "showMore": "#252524",
         "tab": "#4D4D4D",
         "tabActive": "#333"
@@ -3568,7 +3551,7 @@ module.exports = [
         "modalHeader": "#000",
         "modalContent": "#1a1a1a",
         "odd": "#000",
-        "oddActive": "#D1BD74",
+        "oddActive": ["#D1BD74", "#F9E398"],
         "showMore": "#000",
         "tab": "#333",
         "tabActive": "#1a1a1a"

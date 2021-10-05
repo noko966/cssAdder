@@ -1,70 +1,79 @@
 window.digiAppSkinning = {
     colors: {
-        primary: '#33C795'
+        primary: '#F0841F'
     },
+
     secondaryMenu: {
-        innerContainerBgColor: '#080808',
+        innerContainerBgColor: '#282B32',
         bonusBalanceLabelColor: '#FFFFFF',
-        bonusBalanceAmountColor: '#33C795',
-        listItemBgColor: '#333333',
-        listItemColor: '#CCCCCC'
+        bonusBalanceAmountColor: '#F0841F',
+        listItemBgColor: '#3D4147',
+        listItemColor: '#999999'
     },
     mainMenu: {
-        MainMenuBackground: '#2B2B2B',
+        MainMenuBackground: '#474E58',
         MainMenuItemColor: '#999999',
-        MainMenuItemColorActive: '#33C795'
+        MainMenuItemColorActive: '#F0841F'
     },
     popup: {
-        popupHeaderBackground: '#3B3B3B',
+        popupHeaderBackground: '#0A0A0A',
         popupHeaderColor: '#999999',
-        popupHeaderUserBalanceColor: '#33C795'
+        popupHeaderUserBalanceColor: '#F0841F'
     },
     slider: {
         isShadowExist: true,
-        sliderShadowColor: 'linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(20, 19, 19, 1) 100%)',
-        sliderBackground: '#141414',
-        sliderItemColor: '#CCCCCC',
-        sliderItemActiveColor: '#33C795',
-        sliderItemSportCount: '#666666',
+        sliderShadowColor: 'linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(20, 19, 19,1) 100%)',
+        sliderBackground: '#0A0A0A',
+        sliderItemColor: '#999999',
+        sliderItemActiveColor: '#F0841F',
+        sliderItemSportCount: '#999999',
 
-        sliderInlineShadowColor: 'linear-gradient(to right, rgba(26, 26, 26, 0) 0%, rgba(26, 26, 26, 1) 100%)',
-        sliderInlineBackground: '#262626',
+        sliderInlineShadowColor: 'linear-gradient(to right, rgba(26,26,26,0) 0%, rgba(26,26,26,1) 100%)',
+        sliderInlineBackground: '#1E2128',
         sliderInlineColor: '#999999',
-        sliderInlineActiveBackground: '#131313',
+        sliderInlineActiveBackground: '#3D4147',
         sliderInlineActiveColor: '#FFFFFF',
-        sliderInlineBorderColor: '#131313',
-        sliderInlineIconColor: '#FFFFFF'
+        sliderInlineBorderColor: '#3D4147',
+        sliderInlineIconColor: '#999999'
     },
     banner: {
-        bannerSlideOddContainerBackground: '#4D4D4D',
-        bannerSlidesPaginationBackground: '#1A1A1A',
-        bannerSlidesPaginationItemBackground: '#4D4D4D',
-        bannerSlidesPaginationItemBackgroundActive: '#999999'
+        bannerSlideOddContainerBackground: '#474E58',
+        bannerSlidesPaginationBackground: '#0A0A0A',
+        bannerSlidesPaginationItemBackground: '#474E58',
+        bannerSlidesPaginationItemBackgroundActive: '#F0841F'
     },
     odd: {
-        OddBackground: '#9A9A9A',
+        OddBackground: '#0A0A0A',
         OddColor: '#FFFFFF',
-        OddNameColor: '#FFFFFF',
-        OddBackgroundImageActive: 'linear-gradient(0deg, #217458 0%, #33C795 100%)',
+        OddNameColor: '#999999',
+        OddBackgroundActive: '#F0841F',
         OddColorActive: '#FFFFFF',
         OddNameColorActive: '#FFFFFF'
     },
     oddGridElement: {
-        borderColor: '#4D4D4D'
+        borderColor: '#474E58'
     },
     search: {
-        SearchBackground: '#131313',
-        SearchInputBackground: '#1A1A1A',
-        SearchInputPlaceholderColor: '#666666',
+        SearchBackground: '#0E0E0E',
+        SearchInputBackground: '#282B32',
+        SearchInputPlaceholderColor: '#999999',
         SearchInputColor: '#FFFFFF',
-        SearchInputIconColor: '#666666'
+        SearchInputIconColor: '#999999'
     },
     orderInfo: {
-        orderInfoBackground: '#262626',
-        orderInfoColor: '#CCCCCC',
+        orderInfoBackground: '#2D2F36',
+        orderInfoColor: '#999999',
         orderInfoRightColor: '#FFFFFF'
     },
     activeServeIcon: {
-        bgColor: '#33C795'
+        bgColor: '#F0841F'
     }
 };
+
+window.digiAppSkinning.filterToggle = {
+    filterToggleMode: 'static',
+    filterToggleWrapperBackground: '#303741',
+    filterToggleColor: '#fff',
+    filterToggleFill: window.digiAppSkinning.colors.primary
+};
+

@@ -1,0 +1,23 @@
+{
+  "name": "cssadder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lcm": "node adderCasinoLiveMob.js",
+    "lcd": "node adderCasinoLiveDesktop.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0"
+  },
+  "dependencies": {
+    "cuid": "^2.1.8",
+    "express": "^4.17.1",
+    "ncp": "^2.0.0",
+    "tinycolor2": "^1.4.2"
+  }
+}

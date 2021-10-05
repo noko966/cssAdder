@@ -1,0 +1,81 @@
+
+  /*--*/
+  :root {
+    --primaryBg:  #5e5e5e;
+    --primaryBg3: #444444;
+    --primaryTxt: #fff;
+    --primaryTxt2: #b3b3b3;
+    --primaryTxt3: #999999;
+
+    --accentBg: #ffb700;
+    --accentG: #ffb700;
+    --accentRGBA: rgba(255, 183, 0, 0.6);
+    --accentTxt: #000;
+
+    --brandG: #ffe418;
+    --brandBg: #ffe418;
+    --brandTxt: #000;
+
+    --actionButtonG: #ffb700;
+    --actionButtonTxt: #000;
+
+    --widgetG: #ffffff;
+    --widgetBg: #ffffff;
+    --widgetBg2: #f2f2f2;
+    --widgetBg3: #e6e6e6;
+    --widgetRGBA: rgba(255, 255, 255, 0.6);
+    --widgetTxt: #000;
+    --widgetTxt2: #4d4d4d;
+    --widgetTxt3: #666666;
+
+    --oddG: #093d2d;
+    --oddBg: #093d2d;
+    --oddTxt: #fff;
+    --oddTxt2: #b3b3b3;
+
+    --showMoreG: #ebecee;
+    --showMoreBg: #ebecee;
+    --showMoreTxt: #000;
+    --showMoreTxt2: #4d4d4d;
+
+    --headerBG: undefined;
+    --headerG: undefined;
+    --headerTxt: #fff;
+
+    --popupHeaderG: #0e5a42;
+    --popupHeaderBg: #0e5a42;
+    --popupHeaderTxt: #fff;
+
+    --popupBg: #ffffff;
+    --popupG: #ffffff;
+    --popupTxt: #000;
+    --popupTxt2: #4d4d4d;
+
+    --tabG: #0e5a42;
+    --tabBg: #0e5a42;
+    --tabTxt: #fff;
+    --tabTxt2: #b3b3b3;
+
+    --activeTabG: #0e5a42;
+    --activeTabBg: #0e5a42;
+    --activeTabTxt: #fff;
+
+    --sideBarTabG: #0e5a42;
+    --sideBarTabTxt: #fff;
+
+    --sideBarActiveTabG: #0e5a42;
+    --sideBarActiveTabTxt: #fff;
+
+    --inputG: #093d2d;
+    --inputBg: #093d2d;
+    --inputBg2: #06271d;
+    --inputTxt:  #fff;
+    --inputTxt2: #b3b3b3;
+
+    --borderRadius: 2px;
+    --inputBirderRadius:  2px;
+    --bottomBirderRadius:  2px;
+
+}
+/*---*/
+.dm-color--akcent{color:#ffe418}.dm__collapse__home{background-color:#0E5A42;color:#fff;border-color:#FFE418}.dm__collapse__home .dm__collapse_home__name{color:#FFE418}.dm__collapse__home .dm__ico_arrow{color:#fff}.dm__homepage__sport_section__item{background-color:#093628;color:#fff}.dm__homepage__sport_section__market_head{background-color:#14815E;color:#fff}.dm__homepage__sport_section__market_head .dm--market-select-value{background-color:#14815E;color:#fff}.dm__homepage__sport_section__market_head .dm--input-select-value.dm--arrow-deco:after{border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #fff}.dm__homepage__sport_tournament_heading{background-color:#0D4E3A;color:#fff}.dm__homepage__sport_singlegames_cont{background-color:#666}.dm__homepage__sport_singlegames_cont .dm__scores .dm__teamname{color:#999}.dm__homepage__sport_singlegames_cont .dm__teamname{color:#474747;font-weight:normal}.dm__single_game__link .dm__scores{color:#474747}.dm__single_game__link .dm__time{color:#999}.dm__single_game__link .dm__more{color:#999}.dm__single_game__link .dm__scores-akcented{color:#14815E}.dm__font-fav{color:#fff}.dm__favorite-added{color:#FFE418 !important}.dm__betslip_btn{background-color:#fff;color:#B5B4B4;border-right:4px solid #FFE418}.dm__betslip_btn .dm__betslip_btn__odds__text{color:#666;font-weight:bold}.dm__betslip_btn .dm__total_odds{color:#474747;font-weight:bold}.dm__custom_select__wrapper--live{background-color:#027B5C;color:#ccc;box-shadow:0 1px 4px rgba(0,0,0,0.3);position:relative;z-index:1}.dm__championship_cnt .D-cont{background:#4d4d4d}.dm__championship_cnt .D-cont .dm__event_row{background-color:#14815E;color:#fff}.dm__championship_cnt .D-cont .dm__event_row .dm__font-fav{color:#fff}.dm__championship_cnt .dm__event_row{background-color:#093628;color:#fff}.dm__championship__header{background-color:#093628;color:#fff;margin:0}.dm__championship__header .dm__go_back{fill:#ccc}.dm__event_row{background-color:#14815E;color:#fff}.dm__event_row .dm__event_row_c{color:#ccc}.dm__single_game_cont{background:#5E5E5E}.dm__single_game_cont .dm__single_game__link{background-color:#fff;color:#999;padding:8px 0 8px 16px;box-shadow:0 1px 4px rgba(0,0,0,0.3)}.dm__radio-slider{background-color:#ccc}.dm__radio-slider:after{background-color:#fff;box-shadow:1px 1px 1px rgba(0,0,0,0.3)}.dm__radio-hide:checked+.dm__radio-slider:after{background-color:#FFE418}.dm__ico_arrow{color:#fff}.dm__betslip--single{background-color:#5e5e5e}.dm__betslip_error_block__text{color:#d60000}.dm__betslip_btn__count{background-color:#FFE418;color:#474747;border:1px solid #fff}.dm__betslip,.dm__betslip__body{background-color:#5e5e5e}.dm__betslip .dm--tabs-betslip .dm__tabs__item,.dm__betslip__body .dm--tabs-betslip .dm__tabs__item{background-color:#0E5A42;color:#999}.dm__betslip .dm--tabs-betslip .dm__tabs__item-active,.dm__betslip__body .dm--tabs-betslip .dm__tabs__item-active{background-color:#bbb;color:#004252}.dm__betslip .dm__betslip__bet,.dm__betslip__body .dm__betslip__bet{background-color:#fff;color:#fff}.dm__betslip .dm__betslip__bet .dm__live_badge,.dm__betslip__body .dm__betslip__bet .dm__live_badge{background-color:#D60000;color:#fff}.dm__betslip .dm__betslip__bet .dm--checkbox,.dm__betslip__body .dm__betslip__bet .dm--checkbox{color:#666}.dm__betslip .dm__betslip__bet .dm__stake_name_link,.dm__betslip__body .dm__betslip__bet .dm__stake_name_link{color:#474747}.dm__betslip .dm__betslip__bet .dm__cashout_badge-coupon,.dm__betslip__body .dm__betslip__bet .dm__cashout_badge-coupon{background-color:#ccc;color:#474747}.dm__betslip .dm__betslip__bet .dm__bf,.dm__betslip__body .dm__betslip__bet .dm__bf{color:#14815E}.dm__betslip .dm__betslip__bet .dm__betslip__stake_name,.dm__betslip__body .dm__betslip__bet .dm__betslip__stake_name{color:#b3b3b3}.dm__betslip .dm__betslip__bet .dm__betslip__bet__remove,.dm__betslip__body .dm__betslip__bet .dm__betslip__bet__remove{color:#666}.dm__betslip_stake_trigger_panel{background-color:#fff;color:#666}.dm__betslip_stake_trigger_panel .dm__betslip_stake_trigger_text{color:#999}.dm__betslip_stake_trigger_panel .dm__dtt__number{background-color:#333;color:#FFE418}.dm__keyboard_trigger{background-color:#fff !important;color:#474747 !important;border:none}.dm__checkbox-betslip .dm--checkbox{color:#ccc}.dm__checkbox-betslip .dm__checkbox__text{color:#ccc}.dm__btn-bet{background-color:#00912c !important;color:#fff !important}.dm__btn-bet .dm__btn-bet__text{color:#fff}.dm__btn--history{background-color:#FFE418 !important;color:#474747 !important}.dm--input-select-value{background-color:#ccc;color:#666}.dm--input-select-value.dm--arrow-deco:after{border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #fff}.dm__clear{color:#666}.dm__btn--keyboard{background-color:#666 !important;color:#fff !important;border-color:#fff !important}.dm__btn--keyboard .dm__clear{color:#fff !important}.dm__custom_select{background-color:#027B5C;color:#fff;box-shadow:inset 0 1px 4px rgba(0,0,0,0.3)}.dm__custom_select .dm__custom_select__button:after{border-top-color:#fff}.dm__custom_select__wrapper{background-color:rgba(0,0,0,0.5)}.dm__custom_select__heading{background-color:#666;color:#fff}.dm__custom_select__item{background-color:#fff;color:#666}.dm__custom_select__item.dm--selected{box-shadow:4px 0px 0px 0px inset #be1a21}.dm__custom_select__item .dm__custom_select__teamname{color:#666}.dm__custom_select__item .dm__custom_select__scores .dm__scores-akcented{color:#be1a21}.dm__image_header{color:#fff;background-color:rgba(71,71,71,0.8);background-size:cover;background-repeat:no-repeat;background-position:top center}.dm__image_header__tooltip{background-color:rgba(71,71,71,0.5)}.dm__image_header__tooltip svg{fill:#fff}.dm__image_header__table:before{background-color:rgba(71,71,71,0.5)}.dm__market_collapser{background-color:#093628;color:#fff}.dm__market_collapser .dm__font_arrows{color:#ccc}.dm__market_collapser .dm__cashout_badge{background-color:#ccc;color:#474747}.dm__market_odd_cont{border-color:#0E5A42}.dm__tabs_container{background-color:#0E5A42;border-color:#0E5A42}.dm__tabs__item{background-color:#0E5A42;color:#fff}.dm__tabs__item.dm__tabs__item-active{background-color:#14815E;color:#fff}.dm__tabs__item.dm__tabs__item-active .dm__tab_name{color:#FFE418}.dm__live_event .dm__tabs__item{background-color:#0E5A42;color:#fff}.dm__live_event .dm__tabs__item.dm__tabs__item-active{background-color:#14815E;color:#fff}.dm__live_event .dm__tabs__item.dm__tabs__item-active .dm__tab_name{color:#FFE418}.dm__live_event .dm--tabs-event{background-color:#0E5A42}.dm__popup-bg{background-color:#5E5E5E;color:#fff}.dm__popup-bg .dm__input_delete_data__btn:after{color:#ccc}.dm__popup-bg .dm__tabs__item.dm__tabs__item .dm-count-bubble{background-color:#ccc;color:#0E5A42}.dm__popup-bg .dm__tabs__item.dm__tabs__item-active{background-color:#14815E}.dm__popup-bg .dm__tabs__item.dm__tabs__item-active .dm-count-bubble{background-color:#FFE418 !important;color:#14815E}.dm__input_cont label{color:#fff}.dm--input,.dm--input-imit{background-color:#093628;color:#ccc}.dm__mybets__item{background:#0D4E3A;color:#fff}.dm__mybets__item .dm__mybets-res-header{border-color:#FFE418 !important}.dm__mybets__item .dm__mybets-res-header .dm-table-l{color:#FFE418 !important}.dm__mybets_more_cont .dm__mybets_more_cont_item,.dm__mybets_game .dm__mybets_game__info{background-color:#0D4E3A;color:#fff}.dm__mybets_game{background-color:#0D4E3A}.dm__mybets_game .dm__mybets_game__date{color:#fff}.dm__mybets-res-row{background-color:#fff;color:#474747}.dm__mybets-res-row .dm-table-l{color:#999999}.dm__mybets__more{color:#fff}.dm__mybets__more>svg{fill:#fff}.dm__single_result_cont{background-color:#fff;color:#666}.dm__single_result_cont .dm__result_date{color:#666}.dm__single_result_cont .dm__scores{color:#be1a21}.dm__btn--primary{background-color:#00912C !important;color:#fff !important}.dm__btn--ternary{background-color:#666 !important;color:#ccc !important}.dm__btn--secundary{background-color:#262626 !important;color:#ccc !important}.dm__btn--confirm{background-color:#FFE418 !important;color:#474747 !important}.dm--input-calendar{background-color:#fff;color:#474747}.dm--input-calendar input{background-color:#fff;color:#474747 !important}.dm__filter_btn{background-color:#FFE418 !important;color:#474747 !important}.dm__filter_btn svg{fill:#474747}.dm__go_top{background-color:#666;color:#fff}.dm__homepage__multibet_heading{background-color:#666;color:#fff}.dm__multibet_btn{color:#666 !important}.dm__multibet_odd{background-color:#8d8d8d;color:#fff}.dm_mybets-share-betSlip-title{color:#000}.dm_mybets-socials .dm_mybets-socials{color:#fff}.dm_mybets-socials .dm_mybets-fb{background-color:#3a5a98}.dm_mybets-socials .dm_mybets-ok{background-color:#ec8222}.dm_mybets-socials .dm_mybets-vk{background-color:#4b749e}.dm_mybets-socials .dm__loader-cont{background-color:rgba(0,0,0,0.5)}.dm_mybets-socials .dm__loader div{border-color:#be1a21}.dm_mybets-socials .dm__issue_cont span{color:#fff}.dm_mybets-socials .dm__single_game__link .dm__scores-akcented{color:#FFE418 !important}.dm_mybets-socials .dm__font-fav.dm__favorite-added:before{color:#FFE418 !important}.dm_mybets-socials .dm__market_wrapper{background:#C1C1C1}.dm_mybets-socials .dm__betslip__options{background:#c1c1c1}.dm__betslip_error_block{background-color:#D60000;color:#fff}#amountSystem{color:#474747}.dm__live_game_notice{background-color:#ccc;color:#0E5A42}.dm--possible-winning-count{color:#FFE418 !important}.digi_m_sport_favorite{background:#0E5A42}.digi_m_sport_favorite .dm__tabs__item.dm__tabs__item .dm-count-bubble{background-color:#ccc;color:#0E5A42}.digi_m_sport_favorite .dm__tabs__item.dm__tabs__item-active{background-color:#14815E}.digi_m_sport_favorite .dm__tabs__item.dm__tabs__item-active .dm-count-bubble{background-color:#FFE418 !important;color:#14815E}.dm__single_game{background-color:#14815E;color:#fff}.dm__homepage__sport_singlegames .dm__tabs__item.dm__tabs__item{background:#0E5A42;color:#fff}.dm__homepage__sport_singlegames .dm__tabs__item.dm__tabs__item-active{background-color:#14815E;color:#FFE418}.dm__homepage__sport_singlegames .dm__tabs__item.dm__tabs__item-active .dm__tab_name{color:#FFE418}.dm__homepage__sport_singlegames .dm__tabs__item.dm__tabs__item-active .dm__tab_sub_name{color:#fff}.dm__input_wrapper .dm--input,.dm__input_wrapper .dm--input-imit{background-color:#fff;color:#474747}.dm__btn--betslip,.D--select{background-color:#fff;color:#474747}.dm__keyboard_wrapper .dm__keyboard_trigger{background-color:#fff !important;color:#474747 !important}.dm--tabs-bet_history .dm__tabs__item.dm__tabs__item-active{background-color:#027B5C;color:#FFE418}.dm--input-select_wrapper-custom .dm--input,.dm--input-select_wrapper-custom .dm--input-imit{background-color:#fff;color:#474747}.dm--input-select_wrapper-custom .dm--input-select-value.dm--arrow-deco:after{border-left:5px solid transparent;border-right:5px solid transparent;border-top:5px solid #fff}.dm--input-select_wrapper::after{border-top-color:#474747}.dm--input-select_wrapper .dm--input,.dm--input-select_wrapper .dm--input-imit{background-color:#fff;color:#474747}.dm__system_calc__footer-item{background-color:#fff;color:#999}.dm__search_cont .dm__teamname{color:#474747}.dm__search_cont .dm__single_game__row .dm__time{color:#999999}.dm__search_cont .dm__single_game__row .dm__more{color:#999}.dm--tabs-calendar .dm__tabs__item.dm__tabs__item-active{background-color:#14815E;color:#FFE418}.dm__calendar-row{background:#fff;color:#474747}.dm__calendar-row .dm__calendar__time{color:#14815e}.dm__calendar-row .imgSpr{color:#474747 !important}.dm__calendar-row .dm__calendar-row__champ-name,.dm__calendar-row .dm__font{color:#999}.dm__calendar-row.active{background:#cccccc}.dm__issue_cont .dm__font_issue:before,.dm__issue_cont span{color:#ccc}.dm_mybets-share-title{color:#ccc}.dm_mybets_socials_container .dm_mybets-socials .dm__font{color:#fff}.dm--flex-grid__item:nth-child(1n+1) .dm_mybets-socials{background:#3a5a98}.dm--flex-grid__item:nth-child(2n+2) .dm_mybets-socials{background:#ec8222}.dm--flex-grid__item:nth-child(3n+3) .dm_mybets-socials{background:#4b749e}#search{background-color:#093628;color:#ccc}.dm__font_cup{color:#FFE418 !important}.dm__font_edit,.dm__font-calc{color:#666}.dm__homepage__sport_singlegames,.dm__prematch_cont{background:#0E5A42}.dm__image_header-devider{border-color:#FFE418 !important}.dm--possible-winning-text{color:#ccc}.dm__system_calc .dm--input{background-color:#ccc;color:#474747}.dm__system_calc .dm__font-checkbox:before{color:#ccc}.dm__betslip_margin-bottom .dm__btn--betslip{background-color:#ccc;color:#474747}.dm__betslip__options .dm__btn--with-ico{background-color:#ccc;color:#474747}.dm__betslip__options__row .dm__btn--betslip{background-color:#ccc;color:#474747}.dm__calendar_tab_day{color:#ffffff}.dm__calendar_tab_events{color:#ccc}.dm--akcented,.dm--color-akcent{color:#FFE418 !important}#dm-main-container .dm__btn--primary{background-color:#00912c !important;color:#fff !important}#dm-main-container .dm__result_more_item p:nth-child(odd){background-color:#ffffff}
